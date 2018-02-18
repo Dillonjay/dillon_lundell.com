@@ -27,7 +27,7 @@ const Header = () => (
         </Link>
       </h1>
       <Link
-          to="/"
+          to="/portfolio-page"
           style={{
             color: 'white',
             textDecoration: 'none',
@@ -37,7 +37,7 @@ const Header = () => (
          PORTFOLIO
         </Link>
         <Link
-          to="/"
+          to="/blog-page"
           style={{
             color: 'white',
             textDecoration: 'none',
@@ -47,7 +47,7 @@ const Header = () => (
          BLOG
         </Link>
         <Link
-          to="/"
+          to="/design-page"
           style={{
             color: 'white',
             textDecoration: 'none',
