@@ -23,9 +23,39 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Gatsby
+         Dillon Lundell.
         </Link>
       </h1>
+      <Link
+          to="/"
+          style={{
+            color: 'white',
+            textDecoration: 'none',
+            marginLeft: '20px'
+          }}
+        >
+         PORTFOLIO
+        </Link>
+        <Link
+          to="/"
+          style={{
+            color: 'white',
+            textDecoration: 'none',
+            marginLeft: '20px'
+          }}
+        >
+         BLOG
+        </Link>
+        <Link
+          to="/"
+          style={{
+            color: 'white',
+            textDecoration: 'none',
+            marginLeft: '20px'
+          }}
+        >
+         DESIGN
+        </Link>
     </div>
   </div>
 )
