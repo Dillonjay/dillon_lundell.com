@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import StyledLink from './styles/StyledLink'
+
 const Header = () => (
   <div
     style={{
@@ -26,16 +28,13 @@ const Header = () => (
          Dillon Lundell.
         </Link>
       </h1>
+      <StyledLink>
       <Link
           to="/portfolio-page"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-            marginLeft: '20px'
-          }}
         >
          PORTFOLIO
         </Link>
+        </StyledLink>
         <Link
           to="/blog-page"
           style={{
